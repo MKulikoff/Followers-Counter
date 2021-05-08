@@ -1,0 +1,31 @@
+@import url('https://fonts.googleapis.com/css2?family=Itim&display=swap');
+
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0 auto;
+    background-color: blanchedalmond;
+    font-family: 'Itim', cursive;
+    font-size: 24px;
+}
+
+.counter_container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+img {
+    width: 250px;
+    height: 250px;
+    margin: 2em;
+}
+
+@media screen and (max-width: 580px) {
+    body {
+        flex-direction: column; 
+    }
+}
